@@ -1,4 +1,29 @@
 -- Inserts
+INSERT INTO mesas (
+	mesa_codigo,
+	mesa_situacao,
+	data_criacao,
+	data_atualizacao)
+	VALUES(
+	'00001',
+	'A',
+	'01/01/2016',
+	'01/01/2016'
+);
+
+INSERT INTO mesas (
+	mesa_codigo,
+	mesa_situacao,
+	data_criacao,
+	data_atualizacao)
+	VALUES(
+	'00002',
+	'A',
+	'01/01/2016',
+	'01/01/2016'
+);
+
+
 insert into funcionarios(funcionario_codigo,
                                      funcionario_nome,
                                      funcionario_situacao,
